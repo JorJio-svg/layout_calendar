@@ -18,6 +18,7 @@
     height: $day-size;
     background: #eee;
     border: 1px solid black;
+    transition: 0.5s;
 
     &::before {
       font-family: Arial, sans-serif;
