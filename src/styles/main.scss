@@ -57,7 +57,7 @@
   }
 
   @for $num from 28 through 31 {
-    &--month-lenght-#{$num} {
+    &--month-length-#{$num} {
       .calendar__day:nth-child(n + #{$num + 1}) {
         display: none;
       }
